@@ -190,14 +190,8 @@ erangel_kill = pd.concat([erangel_kill1, erangel_kill2, erangel_kill3, erangel_k
 miramar_kill = pd.concat([miramar_kill1, miramar_kill2, miramar_kill3, miramar_kill4])
 
 
-# position.to_csv(r'path + position.csv')
 erangel_kill.to_csv(r'D:/amy/data vis/project/erangel_kill.csv')
 miramar_kill.to_csv(r'D:/amy/data vis/project/miramar_kill.csv')
-
-# # mir = miramar.head()
-# # era = erangel.head()
-# # # position_group.to_csv(r'path + position_group1.csv')
-
 
 
 
